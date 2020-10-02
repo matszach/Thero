@@ -56,6 +56,16 @@ const TEMPLATE = {
         maxVelocity: 0.7,
         inColor: Gmt.rgba(150, 50, 50, 0.7),
         outColor: Gmt.rgba(250, 100, 100, 0.9)
-    }
+    },
+
+    ENEMY_1_DEATH_PARTICLE: {
+        shape: 0,
+        size: 2,
+        traction: 0.01,
+        maxVelocity: 2,
+        duration: 50,
+        inColor: Gmt.rgba(150, 50, 50, 0.2),
+        outColor: Gmt.rgba(250, 100, 100, 0.3)
+    },
 
 }

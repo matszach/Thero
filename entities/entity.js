@@ -24,7 +24,7 @@ class Entity {
     }
 
     _onExpire(cw, game, frame) {
-
+        // abs
     }
 
 

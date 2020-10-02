@@ -9,7 +9,7 @@ class Projectile extends Entity {
             let pr = this;
             game.enemies.forEach(e => {
                 if(pr.collides(e)) {
-                    e.expire();
+                    e.expire(cw, game, frame);
                 }
             });
         }
